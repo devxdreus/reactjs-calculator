@@ -1,0 +1,13 @@
+.theme-toggle {
+  display: flex;
+  width: fit-content;
+  background-color: #5d5f63;
+  border-radius: 8px;
+
+  svg {
+    width: 16px;
+    height: 16px;
+    fill: #fff;
+    padding: 0.5rem 1rem;
+  }
+}
