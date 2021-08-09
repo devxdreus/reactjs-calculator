@@ -1,0 +1,25 @@
+@import "../../Assets/sass/color";
+
+.output-wrapper {
+  margin-top: 3rem;
+  padding: 0 2rem;
+  text-align: right;
+
+  .history p {
+    font-size: 1.1em;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.4rem;
+    margin: 0;
+
+    span {
+      color: $red;
+    }
+  }
+
+  .output {
+    font-size: 3em;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    margin: 0;
+  }
+}

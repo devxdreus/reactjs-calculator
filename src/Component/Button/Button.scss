@@ -1,0 +1,89 @@
+@import "../../Assets/sass/color";
+
+.button-wrapper {
+  background-color: $dark-bg-third;
+  margin-top: 2rem;
+  border-radius: 2rem;
+
+  ul {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-items: center;
+    gap: 1rem;
+    padding-left: 0;
+    list-style: none;
+    justify-content: center;
+    padding: 2rem 3rem;
+    margin: 0;
+
+    li {
+      display: inline-block;
+      text-align: center;
+      background-color: $dark-bg-secondary;
+      border-radius: 8px;
+      width: 3rem;
+      height: 3rem;
+      line-height: 3rem;
+      font-size: 1.3em;
+      cursor: pointer;
+      transition: 0.3s;
+
+      &:hover {
+        background-color: $red;
+        color: #fff;
+
+        svg {
+          fill: #fff;
+        }
+      }
+    }
+  }
+
+  .equals {
+    border-radius: 50%;
+    transition: 0.3s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    &.red {
+      background-color: $red;
+      color: #fff !important;
+    }
+
+    &.green {
+      background-color: $green;
+      color: #fff !important;
+    }
+
+    &.blue {
+      background-color: $blue;
+      color: #fff !important;
+    }
+  }
+
+  .red {
+    color: $red;
+
+    svg {
+      fill: $red;
+    }
+  }
+
+  .green {
+    color: $green;
+
+    svg {
+      fill: $green;
+    }
+  }
+
+  .blue {
+    color: $blue;
+
+    svg {
+      fill: $blue;
+    }
+  }
+}

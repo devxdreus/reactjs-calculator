@@ -1,5 +1,6 @@
 .theme-toggle {
   display: flex;
+  margin: auto;
   width: fit-content;
   background-color: #5d5f63;
   border-radius: 8px;
@@ -7,7 +8,14 @@
   svg {
     width: 16px;
     height: 16px;
-    fill: #fff;
+    fill: #aaa;
     padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover,
+    &.active {
+      fill: #fff;
+    }
   }
 }
